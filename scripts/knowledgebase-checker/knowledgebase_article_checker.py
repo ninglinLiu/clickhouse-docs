@@ -61,7 +61,7 @@ def check_yaml_tags(directory, allowed_tags):
                         if bool(re.search(pattern, content, flags=re.DOTALL)):
                             has_precontent_tags = True
 
-                        # add filename as appropriate if issues occured
+                        # add filename as appropriate if issues occurred
                         if tagged_correct and has_description and has_precontent_tags:
                             correctly_tagged_files.append(filename)
                         else:

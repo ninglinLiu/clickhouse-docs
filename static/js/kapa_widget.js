@@ -69,6 +69,6 @@ if (document.readyState === 'loading') {
     try {
         insertKapaWidget();
     } catch (e) {
-        console.log("An error occured while trying to load the Kapa.ai widget:", e);
+        console.log("An error occurred while trying to load the Kapa.ai widget:", e);
     }
 }

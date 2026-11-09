@@ -4,7 +4,7 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import { getBrowserCookie, setBrowserCookie } from "../../utils/cookies";
 import { v4 as uuid } from "uuid";
 
-// Find or create a UUID from cookies, local and session storage for backwards compatability
+// Find or create a UUID from cookies, local and session storage for backwards compatibility
 function findOrCreateGalaxyId(key) {
   const read = () => {
     try {
