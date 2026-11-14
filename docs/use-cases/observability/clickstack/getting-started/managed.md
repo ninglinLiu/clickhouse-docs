@@ -41,7 +41,7 @@ To create a Managed ClickStack service in [ClickHouse Cloud](https://console.cli
 
 ## Setup ingestion {#setup-ingestion}
 
-Once your service has been provisioned, ensure the the service is selected and click "ClickStack" from the left menu.
+Once your service has been provisioned, ensure the service is selected and click "ClickStack" from the left menu.
 
 <SetupManagedIngestion/>
 

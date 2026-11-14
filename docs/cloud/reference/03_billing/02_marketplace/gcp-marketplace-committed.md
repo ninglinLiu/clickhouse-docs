@@ -22,7 +22,7 @@ import gcp_marketplace_payg_5 from '@site/static/images/cloud/manage/billing/mar
 import aws_marketplace_payg_11 from '@site/static/images/cloud/manage/billing/marketplace/aws-marketplace-payg-11.png';
 import gcp_marketplace_payg_6 from '@site/static/images/cloud/manage/billing/marketplace/gcp-marketplace-payg-6.png';
 
-Get started with ClickHouse Cloud on the [GCP Marketplace](https://console.cloud.google.com/marketplace) via a committed contract. A committed contract, also known as a a Private Offer, allows customers to commit to spending a certain amount on ClickHouse Cloud over a period of time.
+Get started with ClickHouse Cloud on the [GCP Marketplace](https://console.cloud.google.com/marketplace) via a committed contract. A committed contract, also known as a Private Offer, allows customers to commit to spending a certain amount on ClickHouse Cloud over a period of time.
 
 ## Prerequisites {#prerequisites}
 

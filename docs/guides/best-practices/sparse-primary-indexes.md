@@ -1415,7 +1415,7 @@ In contrast to the diagram above, the diagram below sketches the on-disk order o
 <Image img={sparsePrimaryIndexes14b} size="lg" alt="Sparse Primary Indices 14b" />
 
 Now the table's rows are first ordered by their `ch` value, and rows that have the same `ch` value are ordered by their `cl` value.
-But because the first key column `ch` has high cardinality, it is unlikely that there are rows with the same `ch` value. And because of that is is also unlikely that `cl` values are ordered (locally - for rows with the same `ch` value).
+But because the first key column `ch` has high cardinality, it is unlikely that there are rows with the same `ch` value. And because of that is also unlikely that `cl` values are ordered (locally - for rows with the same `ch` value).
 
 Therefore the `cl` values are most likely in random order and therefore have a bad locality and compression ration, respectively.
 
